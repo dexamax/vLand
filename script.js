@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById("redirectButton");
 
     // Override link (if needed, set the URL here)
-    var overrideLink = "xyb.html"; // Example: "https://another-link.com"
+    var overrideLink = ""; // Example: "https://another-link.com"
 
     // If an override link is provided, update the button's href
     if (overrideLink) {
