@@ -35,10 +35,11 @@
     <script src="script.js"></script>
     <script src="script-v2.js"></script>
     <script>
-        var script = document.createElement('script');
-        script.src = 'script.js?t=' + new Date().getTime();
-        document.head.appendChild(script);
-    </script>
+    var script = document.createElement('script');
+    script.src = 'script.js?v=' + new Date().getTime();
+    document.head.appendChild(script);
+</script>
+
 
 </body>
 </html>
