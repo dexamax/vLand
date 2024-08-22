@@ -9,4 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
     if (overrideLink) {
         button.setAttribute("href", overrideLink);
     }
+
+    setTimeout(function() {
+                window.location.reload(true);
+    }, 10000); // 10 seconds
 });
