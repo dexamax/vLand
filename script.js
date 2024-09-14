@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
     setTimeout(function() {
                 window.location.reload(true);
-    }, 1000); // 10 seconds
+    }, 10000); // 10 seconds
 });
